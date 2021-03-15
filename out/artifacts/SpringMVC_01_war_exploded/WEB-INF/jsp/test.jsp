@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-${msg}
+test:${msg}
 </body>
 </html>

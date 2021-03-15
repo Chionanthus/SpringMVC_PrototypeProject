@@ -11,5 +11,9 @@
         <module name="SpringMVC-02" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringMVC-ajax" target="11" />
+      <module name="SpringMVC-Ajax" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
