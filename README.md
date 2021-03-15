@@ -1,2 +1,9 @@
 # SimpleSSMProject
  使用SSM框架搭建的简易图书信息管理系统
+
+
+SpringMVC-01和SpringMVC-02简易实现了SpringMVC的控制器原理和字符编码过滤器
+
+Project Module完成了简易的图书信息管理系统
+有增删改和模糊查询功能
+若要添加功能，在mapper层修改接口，并配置mybatis的mapper文件。在service层编写相关服务类。编写好/WEB-INF/jsp下的jsp页面后在Controller文件下下编写控制器逻辑即可。
