@@ -12,12 +12,9 @@ public class HelloController {
     public String hello(Model model)
     {
         model.addAttribute("msg","Hello,SpringMVCAnnotation");
-        return "F";
+        return "result";
     }
-
-
-
-    @RequestMapping("/e/t1")
+    @RequestMapping("/test2")
     public String test1(String name,Model model)
     {
         model.addAttribute("msg",name);
